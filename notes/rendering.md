@@ -21,8 +21,8 @@
 ## Paint
 - Process of Filling Pixels, Involving Drawing out the Text, Colors, Images, Borders, Shadows, and Every Visual Part of the Elements.
 - "Rasterize", Paint is Actually Two Steps.
-..* Creating a List of Draw Calls.
-..* Filling in the Pixels.
+..- Creating a List of Draw Calls.
+..- Filling in the Pixels.
 
 ## Composite
 - Since Parts of a Page were Drawn into Potentially Multiple Layers,
