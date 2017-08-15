@@ -4,7 +4,7 @@
 - Most Devices Refresh Screens 60 Times a Second. The Browser Needs to Match the Device's Refresh Rate and Put Up 1 New Frame for Each Screen Refresh.
 - Each Frame has a Budget of Just Over 16ms(1sec/60 = 16.66ms). Browser has "Housekeeping", so All Work Needs to be Done Within 10ms. Failing to Meet this "Budget" Causes Frames to Drop, and the Content Judders. This is Referred to as Jank.
 
-# The Pizel Pipeline
+# The Pixel Pipeline
 - Each Part of the Pipeline Represents an Opportunity for Jank to be Introduced.
 - "Rasterize" used in Paint Ste
 - It is Important to Understand What Part of the Pipeline Your Code Triggers
